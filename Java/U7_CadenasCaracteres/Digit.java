@@ -76,5 +76,8 @@ public class Digit {
 
         cad2=cad4.strip();
         System.out.println(cad2);
+
+        String frase, palabra;
+        ;
     }
 }
