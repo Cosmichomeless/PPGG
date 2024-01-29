@@ -16,6 +16,7 @@ public class Palindromo {
         } else {
             System.out.println("La frase no es palíndroma");
         }
+        sc.close();
     }
 
     static String eliminaEspacios(String cadena) {
