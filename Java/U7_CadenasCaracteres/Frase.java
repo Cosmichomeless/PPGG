@@ -21,5 +21,6 @@ public class Frase {
             pos = frase.indexOf(palabra, pos + 1);
         }
         System.out.println("lo he econtrado " + veces);
+        sc.close();
     }
 }

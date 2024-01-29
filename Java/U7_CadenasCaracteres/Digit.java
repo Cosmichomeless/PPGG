@@ -74,10 +74,9 @@ public class Digit {
         String cad3 = cad4.substring(6, 11);
         System.out.println(cad3);
 
-        cad2=cad4.strip();
+        cad2 = cad4.strip();
         System.out.println(cad2);
 
-        String frase, palabra;
         ;
     }
 }
