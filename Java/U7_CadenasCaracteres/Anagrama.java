@@ -38,6 +38,7 @@ public class Anagrama {
             System.out.println("No anagramas");
 
         }
+        sc.close();
     }
 
 }
