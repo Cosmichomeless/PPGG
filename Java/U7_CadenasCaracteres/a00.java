@@ -12,6 +12,6 @@ public class a00 {
 
         }
 
-    }ytrewq
+    }
 
 }
