@@ -2,8 +2,6 @@ package EV4;
 
 import java.util.Scanner;
 
-import Java.U7_CadenasCaracteres.contains;
-
 public class EV4 {
     /*
      * 1. Cantidad de caracteres
@@ -23,7 +21,7 @@ public class EV4 {
         Scanner sc = new Scanner(System.in);
         // Cantidad de caracteres
         System.out.println("Introduzca un texto");
-        String pal1 = "Con 100 murcielagos es dificil reconocer a 1 oso con educacion";
+        String pal1 = sc.nextLine();
         char p1[] = pal1.toLowerCase().toCharArray();
 
         nCaracteres(pal1);// cantidad de caracteres
