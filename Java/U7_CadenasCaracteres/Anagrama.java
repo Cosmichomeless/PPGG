@@ -8,16 +8,6 @@ public class Anagrama {
 
         Scanner sc = new Scanner(System.in);
 
-        /*
-         * String pal1 = sc.next();
-         * String pal2 = sc.next();
-         * 
-         * pal1.toCharArray();
-         * pal2.toCharArray();
-         * 
-         * Arrays.sort(pal1);
-         * Arrays.sort(pal2);
-         */
         System.out.println("palabra 1");
 
         String pal1 = sc.next();
