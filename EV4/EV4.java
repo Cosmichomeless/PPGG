@@ -21,6 +21,7 @@ public class EV4 {
         Scanner sc = new Scanner(System.in);
         // Cantidad de caracteres
         System.out.println("Introduzca un texto");
+        //introduce la frase
         String pal1 = sc.nextLine();
         char p1[] = pal1.toLowerCase().toCharArray();
 
