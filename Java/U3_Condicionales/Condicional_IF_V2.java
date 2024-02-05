@@ -15,7 +15,7 @@ public class Condicional_IF_V2 {
 		if (num % 2 == 0) { //si num es par
 		System.out.println("Es par");
 		}
-		 if (num % 2 != 0) { // es impar
+		 if (num % 2 != 0) { // es imparr
 		System.out.println("Es impar");
 		}
 	}
