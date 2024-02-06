@@ -3,7 +3,7 @@ package Java.U8_Clases;
 public class ctac {
 
     String nombre;
-    int saldo;
+    private int saldo;
 
     ctac(String n, int s) {
         this.nombre = n;

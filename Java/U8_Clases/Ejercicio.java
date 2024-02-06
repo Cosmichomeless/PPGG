@@ -40,6 +40,5 @@ public class Ejercicio {
             System.out.println("Retirada correcta ");
         }
         c4.mostrar();
-
     }
 }
