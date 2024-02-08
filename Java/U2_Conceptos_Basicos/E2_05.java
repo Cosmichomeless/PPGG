@@ -7,7 +7,7 @@ public class E2_05 {
 		num = 32767;
 		System.out.println("Valor maximo para el tipo short: " + num);
 		num++;
-		System.out.println("Valor minimo para el tipo short: " + num);
+		System.out.println("Valor minimo para el tipo short: " + num);es to es afa
 	}
 
 }
