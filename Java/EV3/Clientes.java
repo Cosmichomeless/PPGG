@@ -1,4 +1,4 @@
-package EV3;
+package Java.EV3;
 
 import java.util.ArrayList;
 import java.util.Scanner;
