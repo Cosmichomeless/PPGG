@@ -1,4 +1,4 @@
-package Java.U8_Clases;
+/*package Java.U8_Clases;
 
 public class Super {
     public static void main(String[] args) {
@@ -63,9 +63,7 @@ class Empleado extends Persona {
 
 }
 
-/**
- * jefe extends Empleado
- */
+
 class Jefe extends Empleado {
     String puesto;
 
@@ -75,3 +73,4 @@ class Jefe extends Empleado {
     }
 
 }
+*/
