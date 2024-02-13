@@ -1,0 +1,84 @@
+package Java.U8_Clases;
+
+import java.util.Scanner;
+
+/*
+  Hora(hora, minuto), que construye un objeto con los datos pasados como parámetros.
+• void inc(), que incrementa la hora en un minuto
+• boolean setMinutos(valor), que asigna un valor, si es válido, a los minutos. Devuelve true o false según haya sido posible modificar los minutos o no.
+• boolean setHora(valor), que asigna un valor, si está comprendido entre 0 y 23, a la hora. Devuelve true o false según haya sido posible cambiar la hora o no.
+• String toString(), que devuelve un String con la representación de la hora.
+package resuelta08.pkg01;
+import java.util.Scanner;
+ */
+public class Horas {
+
+    public static void main(String[] args) {
+        Hora h = new Hora(11, 30); // las 11:30
+        System.out.println(h);
+        for (int i = 1; i <= 61; i++) { // incrementamos 61 minutos
+            h.inc();
+        }
+        System.out.println(h); // mostramos
+        System.out.println("Escriba una hora:");
+        int hora = new Scanner(System.in).nextInt();
+
+        boolean cambio = h.setHora(hora); // cambiamos la hora
+
+        if (cambio == true) {
+            System.out.println(h);
+        } else {
+            System.out.println("La hora no se pudo cambiar");
+        }
+
+    }
+}
+
+class Hora {
+    int hora;
+    int minuto;
+
+    public Hora(int i, int j) {
+        this.hora = i;
+        this.minuto = j;
+
+    }
+
+    public boolean setHora(int hora2) {
+
+        this.hora = hora2;
+        if (this.hora >= 0 && this.hora <= 23) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean setMinuto(int min2) {
+        this.minuto = min2;
+        if (this.minuto >= 0 && this.minuto <= 59) {
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+    public void inc() {
+
+        if (minuto != 59) {
+            minuto++;
+        } else if (hora != 23) {
+            hora++;
+            minuto = 0;
+        } else {
+            this.hora = 0;
+            this.minuto = 0;
+        }
+
+    }
+
+    public String toString() {
+        return "Hora: " + this.hora + " Minuto: " + this.minuto;
+    }
+}
