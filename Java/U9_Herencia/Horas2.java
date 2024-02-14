@@ -1,6 +1,7 @@
 package Java.U9_Herencia;
 
 import java.util.Scanner;
+import Java.U8_Clases.*;
 
 /*
  * A partir de la clase Hora implementar la clase HoraExacta, que incluye en la hora los
@@ -30,45 +31,9 @@ class Horas2 {
             System.out.println("No es posible cambiar los segundos");
         }
 
-        
         sc.close();
     }
 
-}
-
-class Hora {
-    int hora;
-    int minuto;
-
-    public Hora(int i, int j) {
-        this.hora = i;
-        this.minuto = j;
-
-    }
-
-    public boolean setHora(int hora2) {
-
-        this.hora = hora2;
-        if (this.hora >= 0 && this.hora <= 23) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public boolean setMinuto(int min2) {
-        this.minuto = min2;
-        if (this.minuto >= 0 && this.minuto <= 59) {
-            return true;
-        } else {
-            return false;
-        }
-
-    }
-
-    public String toString() {
-        return "Hora: " + this.hora + " Minuto: " + this.minuto;
-    }
 }
 
 class HoraExacta extends Hora {
@@ -89,24 +54,19 @@ class HoraExacta extends Hora {
         }
     }
 
+    @Override
     public void inc() {
-        if (segundo != 59) {
-            segundo++;
-        } else if (minuto != 59) {
-            minuto++;
+        segundo++;
+        if (segundo > 59) {
             segundo = 0;
-        } else if (hora != 23) {
-            hora++;
-            minuto = 0;
-            segundo = 0;
-        } else {
-            this.hora = 0;
-            this.minuto = 0;
-            this.segundo = 0;
-
+            super.inc();
         }
     }
+
+    @Override
     public String toString() {
-        return "Hora: " + this.hora + " Minuto: " + this.minuto + " Segundo: " + this.segundo;
+        String result = super.toString();
+        result += ":" + segundo;
+        return result;
     }
 }
