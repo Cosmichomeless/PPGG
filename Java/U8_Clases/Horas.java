@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Horas {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Hora h = new Hora(11, 30); // las 11:30
         System.out.println(h);
         for (int i = 1; i <= 61; i++) { // incrementamos 61 minutos
@@ -21,7 +22,7 @@ public class Horas {
         }
         System.out.println(h); // mostramos
         System.out.println("Escriba una hora:");
-        int hora = new Scanner(System.in).nextInt();
+        int hora = sc.nextInt();
 
         boolean cambio = h.setHora(hora); // cambiamos la hora
 
@@ -30,55 +31,7 @@ public class Horas {
         } else {
             System.out.println("La hora no se pudo cambiar");
         }
+        sc.close();
 
-    }
-}
-
-class Hora {
-    int hora;
-    int minuto;
-
-    public Hora(int i, int j) {
-        this.hora = i;
-        this.minuto = j;
-
-    }
-
-    public boolean setHora(int hora2) {
-
-        this.hora = hora2;
-        if (this.hora >= 0 && this.hora <= 23) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public boolean setMinuto(int min2) {
-        this.minuto = min2;
-        if (this.minuto >= 0 && this.minuto <= 59) {
-            return true;
-        } else {
-            return false;
-        }
-
-    }
-
-    public void inc() {
-
-        if (minuto != 59) {
-            minuto++;
-        } else if (hora != 23) {
-            hora++;
-            minuto = 0;
-        } else {
-            this.hora = 0;
-            this.minuto = 0;
-        }
-
-    }
-
-    public String toString() {
-        return "Hora: " + this.hora + " Minuto: " + this.minuto;
     }
 }
