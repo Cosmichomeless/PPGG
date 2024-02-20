@@ -17,27 +17,27 @@ class formas {
         System.out.println("Area: " + cc.area());
         System.out.println("Perimetro: " + cc.perimetro());
         System.out.println("*******************************");
-        Rectangulo r = new Rectangulo(null, 0, 0);
+        Rectangulo r = new Rectangulo("rojo", 3, 7);
         System.out.println("Rectangulo");
         System.out.println("Color: " + r.getColor());
         System.out.println("Area: " + r.area());
         System.out.println("Perimetro: " + r.perimetro());
         System.out.println("*******************************");
-        Triangulo t1 = new Triangulo(3, 3, 3);
+        Triangulo t1 = new Triangulo("Negro", 3, 3);
         System.out.println("Triangulo 1 (completo)");
         System.out.println("Color: " + t1.getColor());
         System.out.println("Area: " + (t1.area() == -1 ? "No se puede calcular" : String.valueOf(t1.area())));
         System.out.println(
                 "Perimetro: " + (t1.perimetro() == -1 ? "No se puede calcular" : String.valueOf(t1.perimetro())));
         System.out.println("*******************************");
-        Triangulo t2 = new Triangulo(3, 3, 0);
+        Triangulo t2 = new Triangulo("Negro", 3, 0);
         System.out.println("Triangulo 2 (base,altura)");
         System.out.println("Color: " + t2.getColor());
         System.out.println("Area: " + (t2.area() == -1 ? "No se puede calcular" : String.valueOf(t2.area())));
         System.out.println(
                 "Perimetro: " + (t2.perimetro() == -1 ? "No se puede calcular" : String.valueOf(t2.perimetro())));
         System.out.println("*******************************");
-        Triangulo t3 = new Triangulo(3, 3, 3);
+        Triangulo t3 = new Triangulo("Negro", 3, 3);
         System.out.println("Triangulo 3 (l1, l2, l3)");
         System.out.println("Color: " + t3.getColor());
         System.out.println("Area: " + (t3.area() == -1 ? "No se puede calcular" : String.valueOf(t3.area())));
@@ -48,9 +48,10 @@ class formas {
 
 abstract class Forma {
 
-    static String color;
+    private static String color;
 
-    public void setColor(String color) {
+    @SuppressWarnings("static-access")
+    Forma(String color) {
         this.color = color;
     }
 
@@ -67,8 +68,8 @@ class Circulo extends Forma {
 
     private int radio;
 
-    public Circulo(String string, int i) {
-        this.getColor();
+    public Circulo(String color, int i) {
+        super(color);
         this.radio = i;
     }
 
@@ -89,8 +90,8 @@ class Cuadrado extends Forma {
 
     int lado1;
 
-    public Cuadrado(String string, int i) {
-        super();
+    public Cuadrado(String color, int i) {
+        super(color);
         this.lado1 = i;
     }
 
@@ -114,16 +115,20 @@ class Rectangulo extends Cuadrado {
     public Rectangulo(String color, int i, int j) {
 
         super(color, i);
+        this.lado1 = i;
         this.lado2 = j;
 
     }
 
-    public String area() {
+    public double area() {
+        double area = lado1 * lado2;
+        return area;
 
     }
 
-    public String perimetro() {
-
+    public double perimetro() {
+        double perimetro = (lado1 * 2) + (lado2 * 2);
+        return perimetro;
     }
 
 }
@@ -133,22 +138,36 @@ class Triangulo extends Forma {
     private int base, altura, lado1, lado2, lado3;
 
     public Triangulo(String color, int i, int j) {
-        super();
+        super(color);
         this.base = i;
         this.altura = j;
     }
 
-    public Triangulo(int i, int j, int k) {
+    public Triangulo(String color, int i, int j, int k) {
+        super(color); // Add this line to invoke the superclass constructor
         this.lado1 = i;
         this.lado2 = j;
         this.lado3 = k;
     }
 
+    public Triangulo(String color, int base, int altura, int lado1, int lado2, int lado3) {
+        super(color);
+        this.base = base;
+        this.altura = altura;
+        this.lado1 = lado1;
+        this.lado2 = lado2;
+        this.lado3 = lado3;
+    }
+
     public double area() {
+        double area = base * altura / 2;
+        return area;
 
     }
 
     public double perimetro() {
+        double perimetro = lado1 + lado2 + lado3;
+        return perimetro;
 
     }
 
