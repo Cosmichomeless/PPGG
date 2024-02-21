@@ -96,7 +96,7 @@ class Pokemon {
 
     String nombre;
     int nivel; // de 1 a 100
-    private Pokemon.Tipo tipo;
+    private Tipo tipo;
 
     enum Tipo {
         indeterminado, fuego, agua, electrico, bicho, acero
