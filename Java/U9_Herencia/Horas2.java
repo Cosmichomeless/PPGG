@@ -1,7 +1,6 @@
 package Java.U9_Herencia;
 
 import java.util.Scanner;
-import Java.U8_Clases.*;
 
 /*
  * A partir de la clase Hora implementar la clase HoraExacta, que incluye en la hora los
@@ -54,7 +53,6 @@ class HoraExacta extends Hora {
         }
     }
 
-    @Override
     public void inc() {
         segundo++;
         if (segundo > 59) {
@@ -63,7 +61,6 @@ class HoraExacta extends Hora {
         }
     }
 
-    @Override
     public String toString() {
         String result = super.toString();
         result += ":" + segundo;

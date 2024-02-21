@@ -1,4 +1,3 @@
-package Java.U8_Clases;
 
 public class Ejercicio {
     public static void main(String[] args) {

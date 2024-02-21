@@ -1,4 +1,3 @@
-package Java.U8_Clases;
 
 public class Hora {
     int hora;
