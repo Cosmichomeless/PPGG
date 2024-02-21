@@ -42,10 +42,12 @@ class Gimnasio {
     String nombre;
     String lider;
     private ArrayList<Pokemon> pokemons = new ArrayList<>();
+    private static int cantidadGimnasios;
 
     Gimnasio(String nombre, String lider) {
         this.nombre = nombre;
         this.lider = lider;
+        cantidadGimnasios++;
     }
 
     void addPokemon(Pokemon p) {
@@ -64,16 +66,14 @@ class Gimnasio {
 
     static int cantidadGimnasios() {
         // dice la cantidad de gimnasios creados
-        int cantidad;
-        cantidad = 0;
 
-        return cantidad;
+        return cantidadGimnasios;
     }
 
     int cantidadPokemon() {
         // Devuelve el número de pokemons del gimnasio
         int cantidad;
-        cantidad = 0;
+        cantidad = pokemons.size();
         return cantidad;
     }
 
@@ -95,7 +95,7 @@ class Gimnasio {
 class Pokemon {
 
     String nombre;
-    int nivel = 1222; // de 1 a 100
+    int nivel; // de 1 a 100
     private Pokemon.Tipo tipo;
 
     enum Tipo {
@@ -105,6 +105,9 @@ class Pokemon {
     Pokemon(String nombre, int nivel, String tipo) {
         this.nombre = nombre;
         this.nivel = nivel;
+        if (nivel < 1 || nivel > 100) {
+            this.nivel = 1;
+        }
         this.tipo = Tipo.valueOf(tipo);
     }
 
