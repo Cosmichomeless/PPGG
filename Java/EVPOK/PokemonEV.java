@@ -99,7 +99,7 @@ class Pokemon {
     private Pokemon.Tipo tipo;
 
     enum Tipo {
-        Indeterminado, Fuego, Agua, Electrico, Bicho, Acero
+        indeterminado, fuego, agua, electrico, bicho, acero
     }
 
     Pokemon(String nombre, int nivel, String tipo) {
@@ -108,13 +108,14 @@ class Pokemon {
         if (nivel < 1 || nivel > 100) {
             this.nivel = 1;
         }
+        tipo = tipo.toLowerCase();
         this.tipo = Tipo.valueOf(tipo);
     }
 
     Pokemon(String nombre) {
         this.nombre = nombre;
         this.nivel = 1;
-        this.tipo = Tipo.Indeterminado;
+        this.tipo = Tipo.indeterminado;
     }
 
     void ficha() {
