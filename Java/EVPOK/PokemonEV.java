@@ -25,7 +25,7 @@ public class PokemonEV {
 
         Pokemon riachu = new Pokemon("Riachu", 200, "Electrico");
         Pokemon squirtle = new Pokemon("Squirtle", 100, "Agua");
-        Pokemon gengar = new Pokemon("Gengar", 100, "Agua");
+        Pokemon gengar = new Pokemon("Gengar", 100, "agua");
 
         g2.addPokemon(riachu);
         g2.addPokemon(squirtle);
@@ -50,43 +50,39 @@ class Gimnasio {
         cantidadGimnasios++;
     }
 
-    void addPokemon(Pokemon p) {
-        pokemons.add(p); // Añade un pokemon a los pokemons del gimnasio
+    void addPokemon(Pokemon p) {// Añade un pokemon a los pokemons del gimnasio
+        pokemons.add(p);
     }
 
-    String getNombre() {
+    String getNombre() {// Dice el nombre del gimnasio
         return nombre;
-        // Dice el nombre del gimnasio
+
     }
 
-    String getLider() {
+    String getLider() { // Dice el líder del gimnasio
         return lider;
-        // Dice el líder del gimnasio
+
     }
 
-    static int cantidadGimnasios() {
-        // dice la cantidad de gimnasios creados
-
+    static int cantidadGimnasios() { // dice la cantidad de gimnasios creados
         return cantidadGimnasios;
     }
 
-    int cantidadPokemon() {
-        // Devuelve el número de pokemons del gimnasio
+    int cantidadPokemon() { // Devuelve el número de pokemons del gimnasio
         int cantidad;
         cantidad = pokemons.size();
         return cantidad;
     }
 
-    void ficha() {
+    void ficha() { // Imprime la ficha del gimnasio
 
         System.out.println("------------------------------");
         System.out.println("Nombre: " + this.nombre);
         System.out.println("Lider: " + this.lider);
         System.out.println("------------------------------");
-        for (Pokemon recorre : pokemons) {
+        for (Pokemon recorre : pokemons) {// aqui hay que imprimir los pokemons 1 a 1
             recorre.ficha();
         }
-        // aqui hay que imprimir los pokemons 1 a 1
 
     }
 
@@ -99,31 +95,41 @@ class Pokemon {
     private Tipo tipo;
 
     enum Tipo {
-        indeterminado, fuego, agua, electrico, bicho, acero
+        Indeterminado, Fuego, Agua, Electrico, Bicho, Acero
     }
 
     Pokemon(String nombre, int nivel, String tipo) {
         this.nombre = nombre;
         this.nivel = nivel;
-        if (nivel < 1 || nivel > 100) {
-            this.nivel = 1;
-        }
-        tipo = tipo.toLowerCase();
+        tipo = tipo.substring(0, 1).toUpperCase() + tipo.substring(1).toLowerCase();
         this.tipo = Tipo.valueOf(tipo);
+
     }
 
     Pokemon(String nombre) {
         this.nombre = nombre;
         this.nivel = 1;
-        this.tipo = Tipo.indeterminado;
+        this.tipo = Tipo.Indeterminado;
     }
 
     void ficha() {
-        System.out.println("------------------------------");
-        System.out.println("Nombre: " + this.nombre);
-        System.out.println("Nivel: " + this.nivel);
-        System.out.println("Tipo: " + this.tipo);
-        System.out.println("------------------------------");
+
+        if (this.nivel < 1 || this.nivel > 100) {
+            System.out.println("------------------------------");
+            System.out.println("Nombre: " + this.nombre);
+            this.nivel = 1;
+            System.out.println("Nivel invalido, por defecto nivel: " + this.nivel);
+            System.out.println("Tipo: " + this.tipo);
+            System.out.println("------------------------------");
+
+        } else {
+            System.out.println("------------------------------");
+            System.out.println("Nombre: " + this.nombre);
+            System.out.println("Nivel: " + this.nivel);
+            System.out.println("Tipo: " + this.tipo);
+            System.out.println("------------------------------");
+        }
+
     }
 
 }
