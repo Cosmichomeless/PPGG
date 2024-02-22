@@ -3,9 +3,9 @@ import java.util.ArrayList;
 public class PokemonEV {
     public static void main(String[] args) {
 
-        Pokemon pika = new Pokemon("Pikachu");
+        Pokemon Pikachu = new Pokemon("Pikachu");
 
-        pika.ficha();
+        Pikachu.ficha();
 
         Pokemon charm = new Pokemon("Charmander", 100, "Fuego");
 
@@ -13,7 +13,7 @@ public class PokemonEV {
 
         Gimnasio g1 = new Gimnasio("Gimnasio Pueblo Pirotin", "Katy");
 
-        g1.addPokemon(pika);
+        g1.addPokemon(Pikachu);
         g1.addPokemon(charm);
 
         System.out.println("Cantidad gimnasios:" + Gimnasio.cantidadGimnasios());
@@ -23,11 +23,11 @@ public class PokemonEV {
 
         Gimnasio g2 = new Gimnasio("Gimnasio de Altamia", "Brais");
 
-        Pokemon riachu = new Pokemon("Riachu", 200, "Electrico");
+        Pokemon Raichu = new Pokemon("Raichu", 200, "Electrico");
         Pokemon squirtle = new Pokemon("Squirtle", 100, "Agua");
         Pokemon gengar = new Pokemon("Gengar", 100, "agua");
 
-        g2.addPokemon(riachu);
+        g2.addPokemon(Raichu);
         g2.addPokemon(squirtle);
         g2.addPokemon(gengar);
 
@@ -103,7 +103,6 @@ class Pokemon {
         this.nivel = nivel;
         tipo = tipo.substring(0, 1).toUpperCase() + tipo.substring(1).toLowerCase();
         this.tipo = Tipo.valueOf(tipo);
-
     }
 
     Pokemon(String nombre) {
