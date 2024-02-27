@@ -93,12 +93,12 @@ class PorId implements Comparator {
 
 }
 
-class PorNombre implements Comparator {
+// class PorNombre implements Comparator {
 
-    @Override
-    public int compare(Object o1, Object o2) {
+// @Override
+// public int compare(Object o1, Object o2) {
 
-        return ((Persona) o1).nombre.compareTo(((Persona) o2).nombre);
-    }
+// return ((Persona) o1).nombre.compareTo(((Persona) o2).nombre);
+// }
 
-}
+// }
