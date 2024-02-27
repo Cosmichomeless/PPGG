@@ -21,33 +21,38 @@ public class Compa {
         p3.nombre = "Jesus";
         p3.id = 2;
 
-        // ArrayList<Persona> lista = new ArrayList<Persona>();
+        ArrayList<Persona> lista = new ArrayList<Persona>();
 
-        // lista.add(p);
-        // lista.add(p2);
-        // lista.add(p3);
+        lista.add(p);
+        lista.add(p2);
+        lista.add(p3);
 
-        // System.out.println(lista);
-        // lista.sort(null);
-        // System.out.println(lista);
+        System.out.println(lista);
+        lista.sort(null);
+        System.out.println(lista);
+        lista.sort(new PorId());
+        System.out.println(lista);
+        lista.sort(new PorNombre());
+        System.out.println(lista);
 
-        Persona[] tabla = new Persona[3];
-        tabla[0] = p;
-        tabla[1] = p2;
-        tabla[2] = p3;
-
-        System.out.println(Arrays.toString(tabla));
-        Arrays.sort(tabla);
-        System.out.println(Arrays.toString(tabla));
-
-        PorId ordenId = new PorId();
-        Arrays.sort(tabla, ordenId);
-        System.out.println(Arrays.toString(tabla));
-
-        PorNombre ordenNombre = new PorNombre();
-        Arrays.sort(tabla, ordenNombre);
-        System.out.println(Arrays.toString(tabla));
-
+        /*
+         * Persona[] tabla = new Persona[3];
+         * tabla[0] = p;
+         * tabla[1] = p2;
+         * tabla[2] = p3;
+         * 
+         * System.out.println(Arrays.toString(tabla));
+         * Arrays.sort(tabla);
+         * System.out.println(Arrays.toString(tabla));
+         * 
+         * PorId ordenId = new PorId();
+         * Arrays.sort(tabla, ordenId);
+         * System.out.println(Arrays.toString(tabla));
+         * 
+         * PorNombre ordenNombre = new PorNombre();
+         * Arrays.sort(tabla, ordenNombre);
+         * System.out.println(Arrays.toString(tabla));
+         */
     }
 
 }
