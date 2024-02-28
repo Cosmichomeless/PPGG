@@ -22,7 +22,7 @@ public class Control {
             return n;
         } catch (InputMismatchException e) {
             System.out.println("Error, introduce un número entero: ");
-            sc.next();
+            sc.nextLine();
             return introint(sc);
         }
 
