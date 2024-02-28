@@ -7,10 +7,9 @@ public class Control {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("unused")
         int a = introint(sc);
-
         sc.close();
-
     }
 
     private static int introint(Scanner sc) {
@@ -26,5 +25,12 @@ public class Control {
             return introint(sc);
         }
 
+    }
+}
+
+class Error extends Exception {
+
+    public String toString() {
+        return "Error: ";
     }
 }
