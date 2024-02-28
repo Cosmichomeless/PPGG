@@ -5,6 +5,7 @@ import java.util.Comparator;
 
 public class pro {
 
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         Producto p = new Producto();
         p.nombre = "PC";
@@ -41,6 +42,7 @@ public class pro {
 
 }
 
+@SuppressWarnings("rawtypes")
 class Producto implements Comparable {
     String nombre;
     double precio;
@@ -60,6 +62,7 @@ class Producto implements Comparable {
 
 }
 
+@SuppressWarnings("rawtypes")
 class PorCodigo implements Comparator {
 
     @Override
@@ -69,6 +72,7 @@ class PorCodigo implements Comparator {
     }
 }
 
+@SuppressWarnings("rawtypes")
 class PorNombre implements Comparator {
 
     @Override
