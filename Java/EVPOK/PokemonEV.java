@@ -37,17 +37,17 @@ public class PokemonEV {
     }
 }
 
-class Gimnasio {
+class Gimnasio { // Clase gimnasio
 
     String nombre;
     String lider;
     private ArrayList<Pokemon> pokemons = new ArrayList<>();
     private static int cantidadGimnasios;
 
-    Gimnasio(String nombre, String lider) {
+    Gimnasio(String nombre, String lider) { // Constructor
         this.nombre = nombre;
         this.lider = lider;
-        cantidadGimnasios++;
+        cantidadGimnasios++; // Aumenta la cantidad de gimnasios
     }
 
     void addPokemon(Pokemon p) {// Añade un pokemon a los pokemons del gimnasio
@@ -94,26 +94,26 @@ class Pokemon {
     int nivel; // de 1 a 100
     private Tipo tipo;
 
-    enum Tipo {
+    enum Tipo { // Tipos de pokemon
         Indeterminado, Fuego, Agua, Electrico, Bicho, Acero
     }
 
-    Pokemon(String nombre, int nivel, String tipo) {
+    Pokemon(String nombre, int nivel, String tipo) { // Constructor
         this.nombre = nombre;
         this.nivel = nivel;
         tipo = tipo.substring(0, 1).toUpperCase() + tipo.substring(1).toLowerCase();
         this.tipo = Tipo.valueOf(tipo);
     }
 
-    Pokemon(String nombre) {
+    Pokemon(String nombre) { // Constructor
         this.nombre = nombre;
         this.nivel = 1;
         this.tipo = Tipo.Indeterminado;
     }
 
-    void ficha() {
+    void ficha() { // Imprime la ficha del pokemon
 
-        if (this.nivel < 1 || this.nivel > 100) {
+        if (this.nivel < 1 || this.nivel > 100) { // Si el nivel es invalido
             System.out.println("------------------------------");
             System.out.println("Nombre: " + this.nombre);
             this.nivel = 1;
@@ -121,7 +121,7 @@ class Pokemon {
             System.out.println("Tipo: " + this.tipo);
             System.out.println("------------------------------");
 
-        } else {
+        } else { // Si el nivel es valido
             System.out.println("------------------------------");
             System.out.println("Nombre: " + this.nombre);
             System.out.println("Nivel: " + this.nivel);
