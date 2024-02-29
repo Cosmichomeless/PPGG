@@ -1,11 +1,9 @@
 package Java.U8_Clases;
 
-
-
 import java.util.Scanner;
 
 /*
- *  Definir una clase que permita controlar un sintonizador digital de emisoras
+Definir una clase que permita controlar un sintonizador digital de emisoras
 FM; concretamente, se desea dotar al controlador de una interfaz que permita
 subir (up) o bajar (down) la frecuencia (en saltos de 0,5 MHz) y mostrar la
 frecuencia sintonizada en un momento dado (display). Supondremos que el
