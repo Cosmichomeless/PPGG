@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import Java.U11_Acceso_Datos.Try;
+
 public class PokemonEV {
     public static void main(String[] args) {
 
@@ -25,7 +27,7 @@ public class PokemonEV {
 
         Pokemon Raichu = new Pokemon("Raichu", 200, "Electrico");
         Pokemon squirtle = new Pokemon("Squirtle", 100, "Agua");
-        Pokemon gengar = new Pokemon("Gengar", 100, "agua");
+        Pokemon gengar = new Pokemon("Gengar", 100, "FELI");
 
         g2.addPokemon(Raichu);
         g2.addPokemon(squirtle);
@@ -39,8 +41,8 @@ public class PokemonEV {
 
 class Gimnasio { // Clase gimnasio
 
-    String nombre;
-    String lider;
+    private String nombre;
+    private String lider;
     private ArrayList<Pokemon> pokemons = new ArrayList<>();
     private static int cantidadGimnasios;
 
@@ -90,8 +92,8 @@ class Gimnasio { // Clase gimnasio
 
 class Pokemon {
 
-    String nombre;
-    int nivel; // de 1 a 100
+    private String nombre;
+    private int nivel; // de 1 a 100
     private Tipo tipo;
 
     enum Tipo { // Tipos de pokemon
@@ -100,9 +102,17 @@ class Pokemon {
 
     Pokemon(String nombre, int nivel, String tipo) { // Constructor
         this.nombre = nombre;
-        this.nivel = nivel;
-        tipo = tipo.substring(0, 1).toUpperCase() + tipo.substring(1).toLowerCase();
-        this.tipo = Tipo.valueOf(tipo);
+        if (nivel < 1 || nivel > 100) {
+            this.nivel = 1;
+
+        } else {
+            this.nivel = nivel;
+        }
+        try {
+            this.tipo = Tipo.valueOf(tipo);
+        } catch (IllegalArgumentException e) {
+            this.tipo = Tipo.Indeterminado;
+        }
     }
 
     Pokemon(String nombre) { // Constructor
@@ -113,21 +123,11 @@ class Pokemon {
 
     void ficha() { // Imprime la ficha del pokemon
 
-        if (this.nivel < 1 || this.nivel > 100) { // Si el nivel es invalido
-            System.out.println("------------------------------");
-            System.out.println("Nombre: " + this.nombre);
-            this.nivel = 1;
-            System.out.println("Nivel invalido, por defecto nivel: " + this.nivel);
-            System.out.println("Tipo: " + this.tipo);
-            System.out.println("------------------------------");
-
-        } else { // Si el nivel es valido
-            System.out.println("------------------------------");
-            System.out.println("Nombre: " + this.nombre);
-            System.out.println("Nivel: " + this.nivel);
-            System.out.println("Tipo: " + this.tipo);
-            System.out.println("------------------------------");
-        }
+        System.out.println("------------------------------");
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Nivel: " + this.nivel);
+        System.out.println("Tipo: " + this.tipo);
+        System.out.println("------------------------------");
 
     }
 
