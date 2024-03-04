@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-import Java.U11_Acceso_Datos.Try;
 
 public class PokemonEV {
     public static void main(String[] args) {
