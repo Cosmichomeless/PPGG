@@ -14,6 +14,7 @@ public class Writter {
 
             for (int i = 0; i < linea.length(); i++) {
                 wr.write(linea.charAt(i));
+                //wr.newLine();
             }
         } catch (IOException e) {
             e.printStackTrace();
