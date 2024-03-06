@@ -1,4 +1,4 @@
-package Java.EV4;
+package Java.Evaluables.EV4;
 
 import java.util.Scanner;
 
