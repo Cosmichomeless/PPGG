@@ -8,14 +8,15 @@ public class Writter {
     public static void main(String[] args) {
         BufferedWriter wr = null;
         try {
-            wr = new BufferedWriter(new FileWriter("Java//U11_Acceso_Datos//j.txt"));
-
+            wr = new BufferedWriter(new FileWriter("Java//U11_Acceso_Datos//j.txt", true));
             String linea = "Vamos a realizar una prueba de escritura en un archivo";
-
             for (int i = 0; i < linea.length(); i++) {
                 wr.write(linea.charAt(i));
-                //wr.newLine();
             }
+            wr.newLine();
+            String linea2 = "Vamos a realizar una prueba de escritura en un archivo";
+            wr.write(linea2);
+
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
