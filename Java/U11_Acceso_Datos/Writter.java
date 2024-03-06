@@ -6,9 +6,10 @@ import java.io.IOException;
 
 public class Writter {
     public static void main(String[] args) {
-        BufferedWriter wr = null;
-        try {
-            wr = new BufferedWriter(new FileWriter("Java//U11_Acceso_Datos//j.txt", true));
+
+        try (BufferedWriter wr = new BufferedWriter(new FileWriter("Java//U11_Acceso_Datos//j.txt", true))) {
+            // wr = new BufferedWriter(new FileWriter("Java//U11_Acceso_Datos//j.txt",
+            // true));
             String linea = "Vamos a realizar una prueba de escritura en un archivo";
             for (int i = 0; i < linea.length(); i++) {
                 wr.write(linea.charAt(i));
@@ -16,17 +17,11 @@ public class Writter {
             wr.newLine();
             String linea2 = "Vamos a realizar una prueba de escritura en un archivo";
             wr.write(linea2);
-
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
         } finally {
-            try {
-                wr.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            System.out.println("Archivo cerrado");
         }
-
         System.out.println("Archivo escrito");
 
     }
