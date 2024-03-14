@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ej2 {
+public class split {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // pedir nombre y edad
@@ -28,7 +28,7 @@ public class Ej2 {
             br = new BufferedReader(new FileReader("Java/U11_Acceso_Datos/" + archivo));
             String linea;
             while ((linea = br.readLine()) != null) {
-                String[] partes = linea.split(":");
+                String[] partes = linea.split(":");// separar por :
                 String nombre = partes[0];
                 int edad = Integer.parseInt(partes[1]);
                 personas.add(new Persona(nombre, edad));
