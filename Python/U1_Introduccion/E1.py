@@ -12,5 +12,3 @@ else:
     print("area es menor que el perimetro")
 
 print(f'its pair {int(input("Dime un numero")) % 2 == 0}')
-
-
