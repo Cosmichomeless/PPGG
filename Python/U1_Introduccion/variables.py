@@ -1,6 +1,6 @@
 a = 3
 b = "java"
-c: 6
+c: 6 # type: ignore
 
 print("pepe", a, b)
 b = 5
