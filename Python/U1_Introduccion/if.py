@@ -17,3 +17,4 @@ if 1 <= Numero <= 3:
     print("El número es 1, 2 o 3")
 else:
     print("El numero no es correcto")
+
