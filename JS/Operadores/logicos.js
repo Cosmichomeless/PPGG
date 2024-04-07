@@ -8,6 +8,6 @@ console.log(true && false); // false
 console.log(true || true); // true
 console.log(true || false); // true
 
-// not !
+// not ! (negacion)
 console.log(!true); // false
 console.log(!false); // true
