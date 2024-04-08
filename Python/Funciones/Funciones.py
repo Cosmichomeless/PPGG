@@ -11,3 +11,10 @@ def suma(x: int, y: int):
 
 
 print(suma(1, 2))
+
+
+def saluda(nombre="Desconocido"):
+    print('hola', nombre)
+
+
+saluda("david")
