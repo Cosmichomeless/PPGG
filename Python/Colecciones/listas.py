@@ -15,3 +15,6 @@ if mes in range(1, 13):
     print("mes correcto")
 else:
     print("mes incorrecto")
+
+lista = [1, 2, 3, 4, 5]
+
