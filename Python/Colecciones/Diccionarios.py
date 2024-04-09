@@ -10,6 +10,8 @@ if 23 in edad.values():
 else:
     print("No")
 
+
+
 # print(edad["maria"])
 
 # edad["maria"] = 26

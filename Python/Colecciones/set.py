@@ -23,3 +23,4 @@ print(mseti)
 
 msetd = mset.difference(mset1) # Devuelve un conjunto con los elementos que no son comunes de ambos conjuntos
 print(msetd)
+

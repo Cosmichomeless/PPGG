@@ -12,7 +12,7 @@ def maxi(array):
 maxi(array)
 
 
-def max_de_tres(n1,n2,n3):
+def max_de_tres(n1, n2, n3):
     if n1 > n2 and n1 > n3:
         print(n1)
     elif n2 > n1 and n2 > n3:
@@ -20,15 +20,20 @@ def max_de_tres(n1,n2,n3):
     else:
         print(n3)
 
-max_de_tres(1,3,2)
+
+max_de_tres(1, 3, 2)
+
 
 def longitud(array):
     i = 0
     for numero in array:
         i += 1
-    print(i)
+    return i
 
-longitud(array)
+
+res = longitud(array)
+print(res)
+
 
 def vocal(letra):
     letra = letra.lower()
@@ -37,7 +42,9 @@ def vocal(letra):
     else:
         print('No es vocal')
 
+
 vocal('a')
+
 
 def suma(array):
     i = 0
@@ -45,31 +52,34 @@ def suma(array):
         i += numero
     print(i)
 
+
 def multiplica(array):
     i = 1
     for numero in array:
         i *= numero
-    print(i)    
+    print(i)
+
 
 suma(array)
 multiplica(array)
 
 
-#def añade(numero):
+# def añade(numero):
 #    lista = []
 #    lista.append(numero)
 #    return lista
 
-#resultado = añade(int(input('Introduce un numero: ')))
-#print(resultado)
+# resultado = añade(int(input('Introduce un numero: ')))
+# print(resultado)
 
 
 def inversa(cadena):
-    return cadena[::-1] 
+    return cadena[::-1]
 
     cadena_inversa = ''
     for letra in cadena:
         cadena_inversa = letra + cadena_inversa
     return cadena_inversa
+
 
 print(inversa('hola'))
