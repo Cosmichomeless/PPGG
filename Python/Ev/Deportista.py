@@ -35,7 +35,7 @@ def CrearDeportista(deportistas):
             print("---------------------------------------------------------")
             anio = int(input("Ingrese el año de nacimiento del deportista: "))
 
-            
+            #cambiar que no deje introducir el mismo nombre si ya existe ya que cambia el año de nacimiento
     deportistas[nombre] = anio
 
 
