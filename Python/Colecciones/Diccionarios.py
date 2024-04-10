@@ -2,6 +2,9 @@
 
 edad = {"javier": 23, "maria": 25, "luis": 30}
 
+edad["maria"] = 26
+edad["pedro"] = 31
+
 for k,v in edad.items():
     print(k,v)
 
