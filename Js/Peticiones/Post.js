@@ -10,8 +10,8 @@ peticion.addEventListener("load", () => {
         respuesta =
             "Error " + peticion.status + " (" + peticion.statusText + ")";
     }
-    console.log(JSON.parse(respuesta));
+    console.log(peticion.status);
 });
-peticion.open("POST", "info.txt");
+peticion.open("POST", "https://reqres.in/api/users");
 
-peticion.send();
+peticion.send(JSON.stringify({ nombre: "Juan", edad: 25 }));
