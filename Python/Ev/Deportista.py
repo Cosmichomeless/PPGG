@@ -1,6 +1,6 @@
 deportistas = {}
 
-def CrearDeportista(deportistas):
+def CrearDeportista():
     while True:
         try:
             nombre = str(input("Ingrese el nombre del deportista: "))
@@ -23,7 +23,7 @@ def CrearDeportista(deportistas):
         except ValueError:
             print("Por favor, introduzca un valor válido.")
 
-def ModificarDeportista(deportistas):
+def ModificarDeportista():
     while True:
         try:
             nombre = input("Ingrese el nombre del deportista que desea modificar: ")
@@ -38,7 +38,7 @@ def ModificarDeportista(deportistas):
         except ValueError:
             print("Por favor, introduzca un valor válido.")
 
-def ConsultarDeportista(deportistas):
+def ConsultarDeportista():
     nombre = input("Ingrese el nombre del deportista que desea consultar: ")
     if nombre in deportistas:
         print("El año de nacimiento del deportista es: ", deportistas[nombre])
@@ -47,7 +47,7 @@ def ConsultarDeportista(deportistas):
         print("El deportista no existe")
         print("---------------------------------------------------------")
 
-def BorrarDeportista(deportistas):
+def BorrarDeportista():
     nombre = input("Ingrese el nombre del deportista que desea borrar: ")
     if nombre in deportistas:
         confirmacion = input("¿Está seguro de que desea borrar este deportista? (s/n): ")
@@ -61,11 +61,11 @@ def BorrarDeportista(deportistas):
         print("El deportista no existe")
         print("---------------------------------------------------------")
 
-def ListaDeportistas(deportistas):
+def ListaDeportistas():
     for nombre, anio in deportistas.items():
         print(f"Nombre: {nombre}, Año de nacimiento: {anio}")
 
-def DeportistasDeUnAño(deportistas):
+def DeportistasDeUnAño():
     while True:
         try:
             anio = int(input("Ingrese el año que desea consultar: "))
@@ -95,17 +95,17 @@ while True:
             continue
         
         if opcion == 1:
-            CrearDeportista(deportistas)
+            CrearDeportista()
         elif opcion == 2:
-            ModificarDeportista(deportistas)
+            ModificarDeportista()
         elif opcion == 3:
-            ConsultarDeportista(deportistas)
+            ConsultarDeportista()
         elif opcion == 4:
-            BorrarDeportista(deportistas)
+            BorrarDeportista()
         elif opcion == 5:
-            ListaDeportistas(deportistas)
+            ListaDeportistas()
         elif opcion == 6:
-            DeportistasDeUnAño(deportistas)
+            DeportistasDeUnAño()
         elif opcion == 7:
             print("Gracias por todo.")
             break
