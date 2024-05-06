@@ -3,33 +3,46 @@
 # de Comunidad Autónoma.
 UTF = "utf-8"
 
-with open("ccaa.txt", "r", encoding=UTF) as f:
-    ccaa = {line.split(",")[0]: line.split(",")[1].strip() for line in f}
+try:
+    with open("ccaa.txt", "r", encoding=UTF) as f:
+        ccaa = {l_ventas.split(",")[0]: l_ventas.split(",")[1].strip() for l_ventas in f}
+except FileNotFoundError:
+    print("El archivo 'ccaa.txt' no se encontró.")
+    ccaa = {}
 
 Comunidad_Prov = {}
-with open("ccaa_prov.txt", "r", encoding=UTF) as f:
-    for line in f:
-        codigo, prov = line.split(",")
-        if codigo in Comunidad_Prov:
-            Comunidad_Prov[codigo].append(prov.strip())
-        else:
-            Comunidad_Prov[codigo] = [prov.strip()]
+try:
+    with open("ccaa_prov.txt", "r", encoding=UTF) as f:
+        for l_ventas in f:
+            codigo, prov = l_ventas.split(",")
+            if codigo in Comunidad_Prov:
+                Comunidad_Prov[codigo].append(prov.strip())
+            else:
+                Comunidad_Prov[codigo] = [prov.strip()]
+except FileNotFoundError:
+    print("El archivo 'ccaa_prov.txt' no se encontró.")
 
 ventas = {}
-with open("ventas.txt", "r", encoding=UTF) as f:
-    for line in f:
-        prov, empresa, venta = line.split(",")
-        if prov in ventas:
-            ventas[prov].append((empresa, float(venta)))
-        else:
-            ventas[prov] = [(empresa, float(venta))]
+try:
+    with open("ventas.txt", "r", encoding=UTF) as f:
+        for l_ventas in f:
+            prov, empresa, venta = l_ventas.split(",")
+            if prov in ventas:
+                ventas[prov].append((empresa, int(venta)))
+            else:
+                ventas[prov] = [(empresa, int(venta))]
+except FileNotFoundError:
+    print("El archivo 'ventas.txt' no se encontró.")
 
-
-with open("porCCAA.txt", "w", encoding=UTF) as f:
-    for ca, nombre in ccaa.items():
-        suma_ventas = sum(
-            venta
-            for prov in Comunidad_Prov.get(ca, [])
-            for empresa, venta in ventas.get(prov, [])
-        )
-        f.write(f" {ca} - {nombre}: {suma_ventas}\n")
+try:
+    with open("porCCAA.txt", "w", encoding=UTF) as f:
+        for ca, nombre in ccaa.items():
+            suma_ventas = sum(
+                venta
+                for prov in Comunidad_Prov.get(ca, [])
+                for empresa, venta in ventas.get(prov, [])
+            )
+            f.write(f" {ca} - {nombre}: {suma_ventas}\n")
+            f.close()
+except IOError as e:
+    print(f"Ocurrió un error al escribir en el archivo 'porCCAA.txt': {e}")
