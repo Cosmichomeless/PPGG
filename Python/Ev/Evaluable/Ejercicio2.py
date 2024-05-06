@@ -1,3 +1,7 @@
+# (2 puntos) Generar el fichero porProv.txt que contenga, con el siguiente 
+# formato, el total de ventas por provincia. El archivo debe estar ordenado por 
+# código de provincia.
+
 UTF = "utf-8"
 
 provincias = {}
@@ -17,7 +21,6 @@ with open("ventas.txt", "r", encoding=UTF) as ven:
             ventas[codigo] += int(venta)
         else:
             ventas[codigo] = int(venta)
-
 
 with open("porProv.txt", "w", encoding=UTF) as wr:
     for codigo in sorted(ventas.keys()):

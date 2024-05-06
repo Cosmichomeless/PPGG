@@ -2,9 +2,10 @@
 #formato, el total de ventas por empresa. El archivo debe estar ordenado por
 #nombre de empresa.
 UTF = "utf-8"
+ARCHIVO = "ventas.txt"
 
 ventas = {}
-with open("ventas.txt", "r", encoding=UTF) as ven:
+with open(ARCHIVO, "r", encoding=UTF) as ven:
     l_ventas = ven.readlines()
     for venta in l_ventas:
         _, empresa, venta = venta.split(",")
@@ -15,4 +16,4 @@ with open("ventas.txt", "r", encoding=UTF) as ven:
 
 with open ("porEmpresa.txt", "w", encoding=UTF) as wr:
     for empresa, venta in sorted(ventas.items()):
-        wr.write(f"{empresa},{venta}\n")
+        wr.write(f"{empresa}: {venta}\n")

@@ -1,0 +1,19 @@
+ 01 - Andalucía: 380185.0
+ 02 - Aragón: 157469.0
+ 03 - Asturias: 47488.0
+ 04 - Islas Baleares: 15415.0
+ 05 - Canarias: 94003.0
+ 06 - Cantabria: 30547.0
+ 07 - Castilla y León: 514863.0
+ 08 - Castilla-La Mancha: 209004.0
+ 09 - Cataluña: 206887.0
+ 10 - Extremadura: 64498.0
+ 11 - Galicia: 201778.0
+ 12 - Madrid: 51500.0
+ 13 - Murcia: 36188.0
+ 14 - Navarra: 58885.0
+ 15 - La Rioja: 56101.0
+ 16 - Comunidad Valenciana: 177946.0
+ 17 - País Vasco: 129702.0
+ 18 - Ceuta: 70714.0
+ 19 - Melilla: 49404.0
