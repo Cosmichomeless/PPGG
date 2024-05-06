@@ -1,0 +1,24 @@
+Consultores en Gestión,53813
+Consultoría Estratégica,101278
+Consultoría Integral,112780
+Consultoría en Negocios,123366
+Desarrollo Creativo,89296
+Desarrollo Web,82862
+Diseño Creativo,124605
+Empresa Innovadora,52396
+Especialistas en Software,116834
+Estrategias Globales,112725
+Grupo Empresarial,144389
+Ingeniería Innovadora,87109
+Ingeniería de Software,122409
+Innovación Empresarial,169568
+Innovación y Desarrollo,61350
+Marketing Creativo,88500
+Servicios Financieros,110055
+Servicios Profesionales,115622
+Soluciones Digitales,99588
+Soluciones Emprendedoras,114015
+Soluciones Empresariales,107884
+Soluciones Tecnológicas,130972
+Tecnología Avanzada,108059
+Tecnología Innovadora,123102

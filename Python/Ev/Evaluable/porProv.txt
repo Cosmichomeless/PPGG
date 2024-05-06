@@ -1,0 +1,52 @@
+01 - Álava: 25568
+02 - Albacete: 42506
+03 - Alicante: 76191
+04 - Almería: 62756
+05 - Ávila: 59882
+06 - Badajoz: 26794
+07 - Baleares: 15415
+08 - Barcelona: 63243
+09 - Burgos: 51902
+10 - Cáceres: 37704
+11 - Cádiz: 49486
+12 - Castellón: 55527
+13 - Ciudad Real: 25908
+14 - Córdoba: 41533
+15 - La Coruña: 56908
+16 - Cuenca: 65364
+17 - Gerona: 76706
+18 - Granada: 37586
+19 - Guadalajara: 30467
+20 - Guipúzcoa: 78768
+21 - Huelva: 36073
+22 - Huesca: 37381
+23 - Jaén: 40911
+24 - León: 60355
+25 - Lérida: 43829
+26 - La Rioja: 56101
+27 - Lugo: 62833
+28 - Madrid: 51500
+29 - Málaga: 52977
+30 - Murcia: 36188
+31 - Navarra: 58885
+32 - Orense: 33692
+33 - Asturias: 47488
+34 - Palencia: 60722
+35 - Las Palmas: 66453
+36 - Pontevedra: 48345
+37 - Salamanca: 55347
+38 - Santa Cruz de Tenerife: 27550
+39 - Cantabria: 30547
+40 - Segovia: 56793
+41 - Sevilla: 58863
+42 - Soria: 59420
+43 - Tarragona: 23109
+44 - Teruel: 36376
+45 - Toledo: 44759
+46 - Valencia: 46228
+47 - Valladolid: 67646
+48 - Vizcaya: 25366
+49 - Zamora: 42796
+50 - Zaragoza: 83712
+51 - Ceuta: 70714
+52 - Melilla: 49404
