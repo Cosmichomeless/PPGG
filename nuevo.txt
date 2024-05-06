@@ -1,0 +1,6 @@
+¡Hola, este es un texto con caracteres especiales como áéíóú!
+Línea 2¡Hola, este es un texto con caracteres especiales como áéíóú!
+Línea 2¡Hola, este es un texto con caracteres especiales como áéíóú!
+Línea 2¡Hola, este es un texto con caracteres especiales como áéíóú!
+Línea 2¡Hola, este es un texto con caracteres especiales como áéíóú!
+Línea 2

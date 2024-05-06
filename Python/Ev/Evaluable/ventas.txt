@@ -1,0 +1,500 @@
+19,Servicios Profesionales,3230
+31,Marketing Creativo,3207
+08,Desarrollo Web,9192
+31,Estrategias Globales,7979
+31,Consultoría Integral,2247
+42,Servicios Profesionales,3713
+46,Tecnología Avanzada,9088
+51,Consultoría en Negocios,8547
+03,Tecnología Avanzada,1901
+12,Ingeniería de Software,7707
+22,Servicios Financieros,2509
+20,Innovación Empresarial,6516
+42,Soluciones Tecnológicas,7879
+17,Grupo Empresarial,7594
+43,Tecnología Avanzada,4106
+51,Especialistas en Software,1924
+47,Desarrollo Web,7638
+24,Estrategias Globales,4358
+38,Tecnología Innovadora,5819
+28,Soluciones Emprendedoras,9177
+04,Tecnología Avanzada,8008
+20,Innovación Empresarial,7670
+09,Ingeniería Innovadora,4167
+08,Desarrollo Web,191
+04,Soluciones Digitales,7786
+33,Soluciones Tecnológicas,3161
+09,Diseño Creativo,637
+09,Diseño Creativo,469
+14,Diseño Creativo,1842
+45,Estrategias Globales,2028
+01,Especialistas en Software,8844
+05,Tecnología Avanzada,1763
+46,Consultoría en Negocios,3845
+20,Tecnología Innovadora,704
+14,Ingeniería de Software,6773
+31,Tecnología Innovadora,8616
+09,Desarrollo Creativo,2693
+51,Consultoría Estratégica,1891
+33,Innovación y Desarrollo,5798
+26,Soluciones Empresariales,2157
+51,Soluciones Digitales,3509
+52,Desarrollo Creativo,4271
+03,Grupo Empresarial,3285
+16,Tecnología Innovadora,9132
+43,Consultoría Estratégica,9762
+47,Grupo Empresarial,3175
+33,Tecnología Avanzada,6007
+36,Innovación Empresarial,8492
+05,Diseño Creativo,2892
+21,Ingeniería de Software,8052
+30,Soluciones Tecnológicas,453
+46,Innovación Empresarial,7239
+18,Servicios Financieros,4223
+40,Consultoría en Negocios,7325
+41,Consultoría Estratégica,1407
+35,Innovación Empresarial,6819
+40,Diseño Creativo,9378
+46,Consultoría en Negocios,2907
+50,Marketing Creativo,5319
+08,Soluciones Tecnológicas,7115
+50,Consultoría Integral,7038
+42,Soluciones Emprendedoras,7784
+20,Innovación Empresarial,7644
+31,Ingeniería Innovadora,7332
+29,Consultores en Gestión,8180
+17,Soluciones Digitales,6930
+36,Soluciones Tecnológicas,4745
+24,Tecnología Innovadora,7666
+27,Servicios Financieros,7352
+27,Servicios Financieros,8422
+33,Soluciones Emprendedoras,236
+09,Tecnología Avanzada,5516
+50,Consultoría Estratégica,3671
+22,Innovación Empresarial,1913
+45,Tecnología Innovadora,5647
+13,Consultoría Integral,5790
+51,Soluciones Empresariales,7282
+11,Tecnología Innovadora,6514
+08,Tecnología Avanzada,3127
+35,Consultoría Integral,5806
+25,Soluciones Empresariales,5435
+28,Consultoría en Negocios,7492
+46,Servicios Profesionales,7226
+47,Soluciones Tecnológicas,1849
+40,Servicios Profesionales,3613
+52,Tecnología Innovadora,6020
+31,Grupo Empresarial,1975
+34,Grupo Empresarial,7121
+52,Diseño Creativo,6418
+49,Empresa Innovadora,828
+10,Desarrollo Creativo,9219
+09,Consultoría Integral,7019
+21,Empresa Innovadora,5575
+21,Especialistas en Software,1862
+27,Desarrollo Web,1044
+52,Soluciones Digitales,8027
+37,Especialistas en Software,386
+41,Consultoría Integral,7905
+09,Soluciones Digitales,2204
+21,Soluciones Emprendedoras,3049
+34,Ingeniería de Software,1615
+12,Consultoría Estratégica,2915
+09,Estrategias Globales,3212
+26,Tecnología Innovadora,5207
+31,Soluciones Tecnológicas,2826
+16,Tecnología Avanzada,9696
+14,Estrategias Globales,270
+14,Consultoría Integral,939
+13,Soluciones Empresariales,2857
+37,Desarrollo Web,1350
+03,Grupo Empresarial,4942
+12,Consultoría en Negocios,6942
+15,Especialistas en Software,9515
+46,Servicios Profesionales,5456
+10,Soluciones Tecnológicas,9525
+28,Diseño Creativo,2804
+02,Diseño Creativo,9559
+19,Marketing Creativo,3254
+41,Especialistas en Software,9695
+34,Consultoría Integral,8077
+12,Innovación y Desarrollo,1627
+45,Tecnología Innovadora,5656
+21,Soluciones Digitales,137
+29,Empresa Innovadora,7379
+47,Especialistas en Software,9218
+29,Servicios Profesionales,8524
+14,Consultoría Integral,1852
+52,Estrategias Globales,691
+02,Soluciones Tecnológicas,3015
+07,Marketing Creativo,4592
+03,Estrategias Globales,5791
+45,Tecnología Avanzada,4406
+16,Estrategias Globales,7635
+15,Soluciones Empresariales,9536
+05,Grupo Empresarial,8318
+20,Desarrollo Web,4532
+21,Ingeniería de Software,1325
+42,Consultoría en Negocios,4392
+49,Desarrollo Creativo,4531
+42,Grupo Empresarial,1421
+07,Innovación Empresarial,6161
+40,Grupo Empresarial,3172
+50,Soluciones Tecnológicas,4564
+09,Tecnología Innovadora,5377
+51,Estrategias Globales,5794
+52,Soluciones Digitales,6839
+37,Servicios Profesionales,2023
+08,Consultoría Estratégica,1974
+49,Consultoría Estratégica,75
+21,Innovación y Desarrollo,5182
+11,Consultoría en Negocios,6847
+39,Ingeniería Innovadora,1815
+46,Estrategias Globales,1692
+08,Innovación Empresarial,6068
+49,Tecnología Avanzada,6605
+40,Consultores en Gestión,7708
+47,Soluciones Emprendedoras,7966
+11,Consultoría Integral,3132
+03,Innovación Empresarial,9591
+17,Soluciones Tecnológicas,6794
+41,Soluciones Tecnológicas,4268
+47,Soluciones Empresariales,5931
+21,Soluciones Empresariales,2287
+36,Ingeniería de Software,974
+05,Estrategias Globales,7828
+29,Marketing Creativo,2191
+25,Desarrollo Web,4494
+41,Tecnología Avanzada,7300
+35,Grupo Empresarial,8764
+34,Soluciones Emprendedoras,4484
+33,Soluciones Empresariales,3883
+45,Innovación Empresarial,9371
+38,Servicios Profesionales,243
+24,Tecnología Avanzada,2654
+18,Ingeniería Innovadora,631
+49,Marketing Creativo,4103
+42,Soluciones Empresariales,9790
+18,Ingeniería Innovadora,1120
+10,Soluciones Empresariales,2804
+09,Innovación Empresarial,888
+44,Estrategias Globales,5373
+18,Consultoría Estratégica,5085
+35,Diseño Creativo,9939
+12,Diseño Creativo,5331
+18,Soluciones Digitales,3167
+37,Desarrollo Web,7353
+34,Soluciones Empresariales,8006
+02,Soluciones Tecnológicas,9211
+05,Innovación Empresarial,8747
+27,Soluciones Empresariales,7572
+29,Consultoría Integral,4495
+22,Consultoría Estratégica,9753
+03,Tecnología Avanzada,7596
+18,Desarrollo Web,8893
+24,Desarrollo Web,5215
+51,Servicios Profesionales,4784
+20,Consultoría Estratégica,9499
+10,Soluciones Empresariales,3381
+23,Estrategias Globales,8592
+28,Ingeniería de Software,4572
+16,Consultoría Estratégica,3957
+12,Servicios Profesionales,3510
+16,Diseño Creativo,8227
+45,Consultoría Integral,3538
+30,Soluciones Tecnológicas,938
+05,Tecnología Innovadora,8746
+15,Estrategias Globales,9876
+23,Empresa Innovadora,2746
+02,Servicios Financieros,6447
+30,Servicios Financieros,7856
+04,Consultoría Estratégica,3864
+12,Ingeniería Innovadora,3461
+29,Grupo Empresarial,6398
+15,Consultoría Estratégica,6221
+35,Especialistas en Software,9757
+51,Grupo Empresarial,8492
+51,Innovación Empresarial,3261
+22,Grupo Empresarial,3374
+09,Estrategias Globales,2266
+11,Desarrollo Creativo,6304
+03,Innovación y Desarrollo,3002
+28,Diseño Creativo,3129
+04,Diseño Creativo,7259
+15,Estrategias Globales,302
+41,Soluciones Tecnológicas,5959
+48,Desarrollo Creativo,3519
+25,Consultoría Estratégica,9790
+46,Tecnología Innovadora,8775
+43,Servicios Financieros,935
+09,Soluciones Empresariales,275
+03,Consultoría Estratégica,8731
+41,Tecnología Innovadora,5640
+42,Soluciones Digitales,3539
+12,Soluciones Tecnológicas,811
+07,Ingeniería de Software,4662
+21,Empresa Innovadora,3641
+37,Servicios Profesionales,7793
+43,Soluciones Empresariales,6037
+40,Soluciones Emprendedoras,6668
+42,Innovación Empresarial,7158
+12,Innovación y Desarrollo,6678
+34,Servicios Profesionales,3391
+27,Diseño Creativo,8890
+32,Desarrollo Web,5465
+38,Estrategias Globales,5289
+04,Desarrollo Web,6017
+50,Ingeniería de Software,3653
+27,Ingeniería Innovadora,7061
+03,Tecnología Avanzada,4420
+37,Soluciones Digitales,3067
+31,Servicios Profesionales,6677
+44,Ingeniería Innovadora,7644
+03,Soluciones Emprendedoras,2521
+52,Consultoría Estratégica,4868
+36,Servicios Profesionales,8275
+15,Servicios Financieros,8346
+26,Servicios Profesionales,43
+32,Servicios Profesionales,1792
+02,Servicios Financieros,9600
+50,Servicios Profesionales,9760
+15,Innovación Empresarial,5298
+36,Soluciones Tecnológicas,5852
+28,Innovación Empresarial,6269
+31,Consultoría en Negocios,3891
+17,Innovación y Desarrollo,590
+27,Marketing Creativo,6830
+24,Diseño Creativo,3898
+03,Servicios Financieros,4785
+31,Consultores en Gestión,1905
+27,Grupo Empresarial,7338
+24,Grupo Empresarial,3538
+49,Consultoría en Negocios,1911
+32,Innovación y Desarrollo,8750
+30,Servicios Financieros,63
+04,Innovación Empresarial,4931
+41,Ingeniería Innovadora,4531
+35,Desarrollo Creativo,9748
+01,Desarrollo Creativo,4180
+14,Diseño Creativo,9322
+26,Marketing Creativo,8524
+30,Diseño Creativo,9752
+31,Desarrollo Web,9845
+26,Marketing Creativo,9952
+06,Ingeniería de Software,8646
+30,Innovación Empresarial,3109
+17,Consultoría Integral,3424
+41,Consultoría en Negocios,6013
+03,Grupo Empresarial,4321
+35,Soluciones Digitales,490
+31,Consultoría en Negocios,2385
+44,Consultores en Gestión,7958
+17,Soluciones Empresariales,6161
+16,Innovación Empresarial,7264
+20,Soluciones Empresariales,1751
+06,Marketing Creativo,4706
+08,Soluciones Tecnológicas,3085
+20,Ingeniería de Software,9072
+35,Consultoría en Negocios,5666
+32,Desarrollo Creativo,9710
+23,Soluciones Emprendedoras,6879
+40,Tecnología Innovadora,6682
+28,Ingeniería Innovadora,6315
+43,Consultoría en Negocios,1228
+50,Soluciones Empresariales,8665
+38,Estrategias Globales,4907
+26,Servicios Financieros,6260
+14,Consultores en Gestión,9154
+34,Servicios Profesionales,1858
+47,Consultoría en Negocios,5275
+50,Servicios Profesionales,4243
+05,Consultoría Integral,2356
+04,Soluciones Tecnológicas,5297
+24,Consultoría Estratégica,7323
+30,Consultoría Estratégica,5473
+33,Soluciones Emprendedoras,5138
+16,Tecnología Innovadora,211
+39,Diseño Creativo,3387
+11,Consultores en Gestión,1751
+26,Especialistas en Software,7902
+08,Marketing Creativo,3913
+15,Consultoría Estratégica,2049
+11,Marketing Creativo,5542
+20,Ingeniería de Software,5925
+52,Estrategias Globales,5037
+21,Consultoría Integral,644
+21,Tecnología Innovadora,101
+14,Marketing Creativo,7761
+25,Consultoría en Negocios,9392
+32,Soluciones Digitales,7780
+02,Empresa Innovadora,1741
+03,Ingeniería de Software,7366
+37,Soluciones Digitales,8885
+16,Tecnología Innovadora,2264
+01,Soluciones Digitales,4226
+33,Tecnología Innovadora,1553
+28,Ingeniería de Software,732
+37,Ingeniería Innovadora,1866
+04,Estrategias Globales,7639
+49,Consultores en Gestión,5430
+27,Empresa Innovadora,5302
+19,Innovación Empresarial,9195
+14,Innovación Empresarial,513
+48,Grupo Empresarial,1027
+52,Innovación Empresarial,4893
+23,Tecnología Innovadora,3560
+23,Consultoría Integral,6173
+37,Ingeniería Innovadora,3398
+37,Tecnología Avanzada,3726
+22,Estrategias Globales,229
+04,Ingeniería Innovadora,2185
+44,Innovación Empresarial,2193
+35,Desarrollo Creativo,3777
+45,Soluciones Emprendedoras,5212
+23,Desarrollo Creativo,4419
+44,Desarrollo Web,8179
+34,Servicios Profesionales,6706
+04,Soluciones Tecnológicas,810
+04,Soluciones Digitales,7289
+18,Soluciones Tecnológicas,6396
+51,Consultores en Gestión,4218
+25,Soluciones Emprendedoras,5801
+19,Consultoría Integral,781
+16,Grupo Empresarial,5325
+21,Consultoría en Negocios,4218
+33,Tecnología Innovadora,8996
+29,Innovación Empresarial,7913
+09,Innovación Empresarial,9852
+13,Soluciones Empresariales,6289
+25,Soluciones Tecnológicas,2840
+08,Soluciones Emprendedoras,307
+32,Diseño Creativo,195
+22,Innovación Empresarial,7313
+44,Marketing Creativo,5029
+51,Diseño Creativo,5311
+17,Soluciones Emprendedoras,9262
+49,Servicios Financieros,2944
+24,Especialistas en Software,4661
+22,Grupo Empresarial,4214
+39,Desarrollo Web,1507
+50,Empresa Innovadora,9536
+49,Empresa Innovadora,3673
+24,Consultoría Estratégica,2970
+02,Empresa Innovadora,2933
+34,Consultoría Integral,4383
+42,Marketing Creativo,1077
+25,Marketing Creativo,2391
+50,Diseño Creativo,5406
+08,Servicios Profesionales,1568
+48,Servicios Profesionales,7571
+14,Ingeniería de Software,1848
+48,Marketing Creativo,5342
+11,Consultores en Gestión,4015
+10,Marketing Creativo,4767
+13,Desarrollo Web,1426
+12,Especialistas en Software,5085
+39,Servicios Financieros,4218
+38,Servicios Financieros,8696
+48,Soluciones Digitales,2661
+52,Servicios Profesionales,2340
+51,Tecnología Innovadora,6332
+22,Diseño Creativo,740
+27,Servicios Profesionales,655
+08,Especialistas en Software,6433
+08,Innovación y Desarrollo,5404
+50,Soluciones Tecnológicas,7443
+16,Tecnología Avanzada,7079
+36,Consultoría Integral,8601
+37,Soluciones Empresariales,449
+39,Soluciones Emprendedoras,6158
+45,Estrategias Globales,7914
+25,Innovación y Desarrollo,1722
+26,Soluciones Emprendedoras,6192
+22,Soluciones Empresariales,7336
+29,Grupo Empresarial,7897
+51,Soluciones Tecnológicas,7060
+08,Soluciones Emprendedoras,5149
+20,Grupo Empresarial,9442
+17,Innovación y Desarrollo,9722
+40,Grupo Empresarial,2365
+47,Grupo Empresarial,6007
+19,Ingeniería Innovadora,3062
+41,Consultoría en Negocios,2159
+18,Consultoría Integral,8071
+34,Consultoría en Negocios,8669
+12,Innovación y Desarrollo,2528
+10,Servicios Financieros,8008
+50,Soluciones Emprendedoras,2414
+27,Ingeniería de Software,2367
+24,Soluciones Digitales,4644
+33,Grupo Empresarial,9867
+41,Soluciones Digitales,3986
+47,Especialistas en Software,9667
+34,Empresa Innovadora,1807
+47,Grupo Empresarial,3685
+20,Soluciones Tecnológicas,8230
+04,Servicios Profesionales,1671
+38,Grupo Empresarial,2596
+19,Innovación y Desarrollo,2084
+42,Innovación y Desarrollo,4488
+11,Grupo Empresarial,8736
+40,Ingeniería de Software,6595
+08,Soluciones Emprendedoras,9717
+37,Servicios Financieros,9910
+06,Ingeniería Innovadora,7549
+14,Innovación y Desarrollo,838
+28,Consultoría en Negocios,3481
+43,Servicios Profesionales,1041
+39,Ingeniería Innovadora,9785
+11,Innovación y Desarrollo,538
+06,Consultores en Gestión,3494
+17,Ingeniería Innovadora,5269
+48,Desarrollo Creativo,5246
+50,Soluciones Tecnológicas,3063
+40,Innovación Empresarial,3287
+17,Soluciones Emprendedoras,9180
+49,Ingeniería de Software,5870
+13,Soluciones Digitales,2566
+05,Tecnología Avanzada,8671
+45,Ingeniería de Software,987
+30,Estrategias Globales,5793
+05,Ingeniería de Software,4776
+30,Desarrollo Web,521
+28,Ingeniería de Software,7529
+37,Consultoría Integral,5141
+03,Desarrollo Creativo,7939
+16,Diseño Creativo,2404
+50,Especialistas en Software,8937
+11,Consultoría en Negocios,6107
+01,Desarrollo Creativo,2396
+09,Ingeniería Innovadora,7327
+33,Servicios Profesionales,2849
+24,Tecnología Avanzada,3893
+24,Ingeniería de Software,9535
+39,Soluciones Digitales,3677
+05,Especialistas en Software,5785
+36,Tecnología Avanzada,2497
+25,Ingeniería de Software,1964
+34,Tecnología Innovadora,3884
+47,Empresa Innovadora,7235
+13,Desarrollo Creativo,6980
+20,Soluciones Tecnológicas,7783
+16,Ingeniería Innovadora,2170
+36,Consultoría en Negocios,8909
+49,Consultoría Integral,6826
+51,Especialistas en Software,2309
+19,Servicios Financieros,8861
+35,Servicios Profesionales,5067
+35,Servicios Financieros,620
+30,Estrategias Globales,2230
+17,Desarrollo Creativo,4364
+42,Soluciones Digitales,8179
+15,Consultoría en Negocios,5765
+14,Ingeniería Innovadora,421
+06,Innovación y Desarrollo,2399
+01,Especialistas en Software,5922
+26,Ingeniería de Software,9864
+34,Soluciones Emprendedoras,721
+17,Diseño Creativo,7416
+23,Consultoría Integral,8542
+12,Especialistas en Software,8932
